@@ -1,0 +1,16 @@
+{
+    "name": "tleti/behat",
+    "autoload": {
+        "psr-4": {
+            "Tleti\\Behat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tleti"
+        }
+    ],
+    "require": {
+        "behat/behat": "4.x-dev"
+    }
+}
