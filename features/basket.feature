@@ -6,7 +6,7 @@ Feature: Basket
     Then the basket price is 10 €
 
 
-  Scenario: Basket with one product
-    Given the fixtures file "parameters.yml" is loaded
-    When I add a new product costing 10 € to the basket
+  Scenario: Basket from fixtures
+    Given the fixtures file "product" is loaded
+    When I add a new product
     Then the basket price is 10 €

@@ -52,4 +52,20 @@ class FeatureContext implements Context
             throw new Exception('Le prix ne correspond pas');
         }    }
 
+
+    /**
+     * @Given the fixtures file :arg1 is loaded
+     */
+    public function theFixturesFileIsLoaded($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @When I add a new product
+     */
+    public function iAddANewProduct()
+    {
+        throw new PendingException();
+    }
 }
