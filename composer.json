@@ -2,7 +2,7 @@
     "name": "tleti/behat",
     "autoload": {
         "psr-4": {
-            "Tleti\\Behat\\": "src/"
+            "": "app/"
         }
     },
     "authors": [
@@ -11,6 +11,6 @@
         }
     ],
     "require": {
-        "behat/behat": "4.x-dev"
+        "behat/behat": "^3.12"
     }
 }
